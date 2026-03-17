@@ -14,6 +14,6 @@ Plots displacement time series for one or two selected points from CSV input.
 
 ```bash
 
-csv2insarmaps.py --input file.csv --output file.kml --geometry-h5 inputs/geometryRadar.h5 --kml-name "Area of Interest Ascending/Descending 2022-2025" --vlim 1.0
+csv2kml.py --input file.csv --output file.kml --geometry-h5 inputs/geometryRadar.h5 --kml-name "Area of Interest Ascending/Descending 2022-2025" --vlim 1.0
 
 plot_displacement.py --p1 349562 --f1 file1.csv --output point1displacement.png
